@@ -11,7 +11,7 @@ weight: 25
     <p>Everyone who comes speaks. Here's some of this year's fabulous speakers! <a href="https://ti.to/rest-fest/rest-fest-uk-2017">Want your name on the list?</a> </p>
 
     <div class="ui grid">
-      {% assign speakers = site.data.us.speakers | reverse %}
+      {% assign speakers = site.data.uk.speakers | reverse %}
       {% for speaker in speakers %}
       <div class="four wide center aligned column">
         <a href="https://twitter.com/{{ speaker.screen_name }}" target="_blank">
