@@ -3,28 +3,15 @@ layout: us
 title: Home
 weight: 0
 ---
-  <div class="ui vertical stripe segment">
-      <div class="ui middle aligned stackable grid container">
-          <div class="row">
-              <div class="six wide column">
-                  <h3 class="ui header">About REST Fest</h3>
-                  <p>Our objective is to give people interested in <a href="http://en.wikipedia.org/wiki/Representational_State_Transfer">REST</a>, <a href="http://en.wikipedia.org/wiki/HATEOAS">Hypermedia APIs</a>, crafting web service APIs, or any related topics a chance to get together in an informal setting to  share ideas, trade  stories, and show examples of current work.</p>
-              </div>
-              <div class="eight wide right floated center aligned column">
-                <iframe src="https://player.vimeo.com/video/183079736?color=a6cc3b&byline=0&portrait=0" width="444" height="250" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                <a href="http://videos.restfest.org/" target="_blank">More REST Fest 2016 Videos</a>
-              </div>
-          </div>
-      </div>
-  </div>
+{% include about-video.html %}
 
   <div class="ui vertical stripe quote segment">
     <div class="ui equal width stackable internally celled grid">
       <div class="center aligned row">
-        <div class="column" id="map" data-lat="34.8522" data-lng="-82.3967"></div>
-        <div class="column" id="tito">
+        <div class="six wide column" id="map" data-lat="34.8522" data-lng="-82.3967"></div>
+        <div class="ten wide column" id="tito">
           <h3 class="ui dividing header">Snag Some Tickets!</h3>
-          <tito-widget event="rest-fest/rest-fest-us-2016">Wait for it...</tito-widget>
+          <tito-widget event="rest-fest/rest-fest-us-2017">Wait for it...</tito-widget>
         </div>
       </div>
     </div>
@@ -32,18 +19,28 @@ weight: 0
 
   <div class="ui vertical stripe segment">
     <div class="ui text container">
-        <img src="/images/dret.jpeg" class="ui right floated medium image">
-        <h3 class="ui header">Keynote: <a href="http://twitter.com/dret">Erik Wilde</a> - <a href="http://dret.net/lectures/restfest-2016/">Deconstructing the Web</a></h3>
-        <p>One of REST's constraints is that of a uniform interface. Web technologies as they exist today also highlight the fact that the uniform interface from 20 years ago is not quite as uniform anymore. This talk presents an overview of the various axes of the uniform interface and will introduce a resource intended to provide an overview of the constantly evolving set of Web concepts.</p>
-        <p><a class="ui large button" href="schedule">Checkout the Schedule</a>
+        <h3 class="ui header">Keynote: Time to Redecentralise the Web</h3>
+      <div class="ui two column grid">
+        <div class="column">
+        <p>
+        <strong>Irina Bolychevsky</strong> is the founder of <a href="http://redecentralize.org">redecentralize.org</a> and will talk about the implications of centralisation, the projects working to change this, and the opportunities and challenges of decentralisation.</p>
+        <p><a class="ui large button" href="schedule#keynote">Learn more</a></p>
+        </div>
+        <div class="column">
+          <img src="/images/irina-bolychevsky.jpg" alt="photo of Irina Bolychevsky" class="ui image" />
+          sponsored by <a href="https://protocol.ai/" target="_blank">Protocol Labs</a>
+        </div>
+      </div>
+        <br>
+        <h3 class="ui header">Speakers, Schedule</h3>
+        <p>REST Fest is a unique blend of presentations and collaborative unconference goodness.
+        The keynote sits directly in the middle of the conference schedule with hackday,
+        workshop, session, talks, and 5-in-5 lightening talks surrounding it.</p>
+        <a class="ui large button" href="schedule">Checkout the Schedule</a>
 
       {% include sponsors.html %}
 
-      <div class="ui horizontal list">
-        <img class="ui small image item" style="" src="/images/cainc.png" alt="CA, Inc.">
-        <img class="ui small image item" src="/images/mulesoft-logo.png" alt="MuleSoft">
-      </div>
-      <a class="ui right floated large button" href="mailto:info@restfest.org">
+      <a class="ui large button" href="mailto:info@restfest.org">
           <i class="icon mail"></i> Email us for a Prospectus
       </a>
 
@@ -71,7 +68,7 @@ weight: 0
             </div>
             <div class="column">
                 <div class="ui segment">
-                    <img class="ui avatar image" src="https://pbs.twimg.com/profile_images/2219016198/me_400x400.jpg">
+                    <img class="ui avatar image" src="https://pbs.twimg.com/profile_images/852305333259206656/9f5nm_gA_400x400.jpg">
                     <a href="https://twitter.com/rhynodesigns">Ryan McAllen</a>
                 </div>
             </div>
