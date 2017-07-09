@@ -14,6 +14,7 @@ weight: 25
       {% assign speakers = site.data.us.speakers | reverse %}
       {% for speaker in speakers %}
       <div class="four wide center aligned column">
+        {% if speaker.screen_name %}
         <a href="https://twitter.com/{{ speaker.screen_name }}" target="_blank">
           <img class="ui tiny avatar image" src="{{ speaker.profile_image_url }}" alt="{{ speaker.name }}" />
         </a>
@@ -21,6 +22,15 @@ weight: 25
           <div class="header">{{ speaker.name }}</div>
           <a href="https://twitter.com/{{ speaker.screen_name }}" target="_blank">{{ speaker.screen_name }}</a>
         </div>
+        {% else %}
+        <a href="https://github.com/{{ speaker.github_username }}" target="_blank">
+          <img class="ui tiny avatar image" src="{{ speaker.profile_image_url }}" alt="{{ speaker.name }}" />
+        </a>
+        <div class="content">
+          <div class="header">{{ speaker.name }}</div>
+          <a href="https://github.com/{{ speaker.github_username }}" target="_blank">{{ speaker.github_username }}</a>
+        </div>
+        {% endif %}
       </div>
       {% endfor %}
     </div>
