@@ -2,7 +2,6 @@
 layout: us-page
 title: Workshop
 weight: 40
-hidden: True
 ---
 
 # Pre-Fest Workshop
