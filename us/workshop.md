@@ -18,11 +18,11 @@ This year’s pre-fest workshop will introduce you to the basics of REST, with a
 5. Avoiding Hard Versioning
 
 ## Desired Outcomes
-Understand REST and Hypermedia
-Know how to build a REST Service
-Know how to build a REST/Hypermedia Client
-Know what it takes to build services that can changer w/o breaking clients
-Have an example of a running REST service and Hypermedia client
+* Understand REST and Hypermedia
+* Know how to build a REST Service
+* Know how to build a REST/Hypermedia Client
+* Know what it takes to build services that can change without breaking clients
+* Have an example of a running REST service and Hypermedia client
 
 ## Schedule
 
@@ -54,7 +54,7 @@ BREAK (15/30min)
    1. Test your hypermedia API
    2. Open Discussion/Q&A on REST servers
 
-LUNCH (1hr? 30min?)
+LUNCH
 
 ## Afternoon: REST and Client Apps (3hrs)
 
