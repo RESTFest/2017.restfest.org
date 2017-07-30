@@ -47,12 +47,12 @@ welcome! Feel free to contribute suggestions by filing issues on
 BREAK (15/30min)
 
 1. Implementing (45min)
-   1. Introduce the open data set
-   2. Introduce API-in-a-Box
-   3. Build API-in-a-Box docker images locally and spin up containers with the open data set
+   1. The open data sets
+   2. Introduction to API-in-a-Box
+   3. Building hypermedia APIs with API-in-a-Box
 2. Validating (45min)
-   1. Test out API requests and make sure everything is working
-   2. Open discussion/Q&A on REST servers
+   1. Test your hypermedia API
+   2. Open Discussion/Q&A on REST servers
 
 LUNCH (1hr? 30min?)
 
