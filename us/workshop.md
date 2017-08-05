@@ -4,7 +4,7 @@ title: Workshop
 weight: 40
 ---
 
-# Pre-Fest Workshop
+# Pre-Fest Workshop - [Wednesday, 9/13](schedule)
 
 This year’s pre-fest workshop will introduce you to the basics of REST, with a combination of fun presentations, discussion, and hands-on hypermedia projects. You’ll come away from the day’s event with a better understanding of REST and hypermedia, the knowledge to build a REST Service and a REST/Hypermedia Client, and a working example of a running REST service and Hypermedia client.
 
