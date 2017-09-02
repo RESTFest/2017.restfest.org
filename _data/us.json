@@ -19,6 +19,13 @@
         "url": "https://protocol.ai/"
       }
     ],
+    "PUT": [
+      {
+        "name": "Healthify",
+        "image": "/images/healthify-logo_master-v1a_logotype.svg",
+        "url": "https://www.healthify.us/about-us"
+      }
+    ],
     "GET": [
     ],
     "rel_friend": [
