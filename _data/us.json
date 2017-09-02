@@ -27,6 +27,11 @@
       }
     ],
     "GET": [
+      {
+        "name": "Wiley",
+        "image": "/images/wiley.png",
+        "url": "http://www.wiley.com/"
+      }
     ],
     "rel_friend": [
       {
